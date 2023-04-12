@@ -31,7 +31,7 @@ import pickle
 API_KEY = 'AIzaSyC8Y7glTka8H9WqymYDKTN190EoJUFlqWU'  # Enter your API key here
 
 # Train data path
-csv_file_path = '/Users/ziyuanye/Documents/PSU/2023 Spring/DS 340W/Final Project/Combined_Filtered_Sentiment.csv'
+csv_file_path = 'Combined_Filtered_Sentiment.csv'
 
 
 def collect_comments(video_id, max_comments=None, api_key=API_KEY):
